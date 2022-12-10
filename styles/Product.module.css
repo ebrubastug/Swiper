@@ -1,0 +1,166 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+}
+
+.breadcrumb {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  color: #575454;
+}
+
+.breadcrumbText {
+  display: flex;
+  align-items: center;
+  color: #575454;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  color: #575454;
+  margin-top: 10px;
+}
+
+.badges {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.tag {
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.tag svg {
+  font-size: 19px;
+  margin-right: 4px;
+}
+
+.description {
+  margin-top: 60px;
+  font-size: 30px;
+  color: #575454;
+}
+
+.seller {
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  margin-top: 15px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.seller svg {
+  margin-right: 5px;
+}
+
+.rating {
+  background-color: darkorange;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 2px 5px;
+  margin-left: 5px;
+}
+
+.rating svg {
+  font-size: 20px;
+}
+
+.price {
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #575454
+}
+
+.discount {
+  border-radius: 30px;
+  background-color: #ececec66;
+  padding: 0px 15px 0px 0px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.box {
+  margin-right: 15px;
+  background-color: #E0E0E3;
+  padding: 15px;
+  border-radius: 30px;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.instalment {
+  margin-top: 30px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon svg {
+  margin-right: 15px;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+
+}
+
+.buttonBorder {
+  padding: 18px;
+  border-radius: 50px;
+  background-color: #ececec66;
+  margin-right: 20px;
+}
+
+.buttonBorder svg {
+  font-size: 32px;
+}
+
+.buttons button {
+  background-color: #383838;
+  font-size: 25px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  text-transform: none;
+}
+
+.swiperSlideImg {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+}
+
+
+@media (max-width: 995px) {
+  .main {
+    width: 65%;
+  }
+}
+
+@media (max-width: 720px) {
+  .main {
+    width: 100%;
+  }
+}
