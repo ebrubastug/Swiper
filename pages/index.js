@@ -12,9 +12,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import KeyboardReturnIcon from '@mui/icons-material/KeyboardReturn';
-import Inventory2OutlinedIcon from '@mui/icons-material/Inventory2Outlined';
+import Inventory2OutlinedIcon from '@mui/icons-material/Inventory2Outlined';  
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import IosShareOutlinedIcon from '@mui/icons-material/IosShareOutlined';  
+import IosShareOutlinedIcon from '@mui/icons-material/IosShareOutlined';   
 
 //css dosyama eklediğimde çalışmadığı için componentimin içine ekledim.
 const style = {
